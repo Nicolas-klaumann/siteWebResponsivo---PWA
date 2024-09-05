@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TechNova</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="manifest" href="manifest.json" />
+    <meta name="theme-color" content="#333333" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">TechNova</div>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#services">Serviços</a></li>
+          <li><a href="#about">Sobre</a></li>
+          <li><a href="#contact">Contato</a></li>
+        </ul>
+        <div class="burger">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+      </nav>
+    </header>
+
+    <section id="home">
+      <div class="intro">
+        <h1>Bem vindo a TechNova</h1>
+        <p>Seu parceiro tecnológico para soluções inovadoras</p>
+        <img src="images/intro-image.jpg" alt="Intro Image" />
+      </div>
+    </section>
+
+    <section id="services">
+      <h2>Nossos Serviços</h2>
+      <div class="services-container">
+        <div class="service">
+          <h3>Desenvolvimento Web</h3>
+          <p>Criação de sites responsivos e dinâmicos.</p>
+        </div>
+        <div class="service">
+          <h3>Aplicativos Mobile</h3>
+          <p>Desenvolvimento de aplicativos móveis fáceis de usar.</p>
+        </div>
+        <div class="service">
+          <h3>Consultoria</h3>
+          <p>Fornecendo serviços especializados de consultoria em tecnologia</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <h2>Sobre Nós</h2>
+      <p>
+        A TechNova é uma empresa líder em tecnologia que fornece soluções
+        inovadoras para empresas em todo o mundo. Nossa equipe de especialistas
+        está empenhada em entregar os melhores resultados para nossos clientes.
+      </p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <form>
+        <label for="name">Nome:</label>
+        <input type="text" id="name" name="name" />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" />
+
+        <label for="message">Mensagem:</label>
+        <textarea id="message" name="message"></textarea>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+
+    <footer>
+      <p>&copy; 2024 TechNova. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+  </body>
+</html>
